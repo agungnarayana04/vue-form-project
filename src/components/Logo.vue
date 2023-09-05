@@ -1,0 +1,47 @@
+<style scoped>
+/*LOGO*/
+
+.logo {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    display: inline-block;
+    border: 2px solid #fff;
+    line-height: 1.3;
+    padding: 10px 15px 4px 15px;
+    margin: 0;
+}
+
+.logo h1 a span {
+    line-height: 1;
+}
+
+.navigation {
+    padding: 0;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    ;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.navigation li a {
+    color: rgba(0, 0, 0, .4);
+}
+</style>

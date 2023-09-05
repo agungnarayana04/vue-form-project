@@ -1,0 +1,29 @@
+<style scoped>
+/*BUTTON*/
+.btn {
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.btn.btn-primary {
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    background: #2c576b;
+    color: #ffffff;
+}
+
+.btn.btn-white {
+    border-radius: 30px;
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn.btn-white-outline {
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+</style>

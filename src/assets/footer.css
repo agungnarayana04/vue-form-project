@@ -1,0 +1,77 @@
+/*FOOTER*/
+
+.footer {
+    color: rgba(255, 255, 255, .5);
+
+}
+
+.footer .heading {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #b6895f;
+    font-size: 0.9em;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #b6895f;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 2em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 2em;
+}
+
+.footer .addr{
+    width: 25%;
+    float: left;
+}
+
+.footer .addr.more{
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+    .separator {
+        font-size: 0.88em;
+    }
+
+    .footer .addr.more{
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    .footer .addr{
+        margin-right: 0px;
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+}

@@ -1,0 +1,11 @@
+/*BLOG*/
+.blog-entry {
+    border: 1px solid red;
+    padding-bottom: 30px !important;
+}
+
+.text-blog .meta {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 0;
+}
